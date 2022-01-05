@@ -59,14 +59,27 @@ h1{
   padding-top: 15px;
 }
 .movie-name{
-    border: 2px solid blue;
+    border: 2px solid black;
     border-radius: 5px;
     margin: 30px;
     padding: 10px;
+    background-color: rgb(97, 92, 92);
+    box-shadow: 15px 10px 10px rgba(196, 89, 89, 0.658);
 }
 .third-section{
     display: flex;
+    margin-bottom: 100px;
 }
-.watch-movie{
-  text-align: center;
+
+.heading-and-parahraph-color{
+    color: white;
+}
+#main-section{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRstBvLS-9BEHKGAe-q7kSii92ZahiGPOyGow&usqp=CAU);
+    background-size: 100%;
+}
+#footer{
+    text-align: center;
+    color: red;
+    font-size: 20px;
 }
